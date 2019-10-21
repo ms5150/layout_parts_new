@@ -2,4 +2,51 @@
 
 /* 回答はここに書いてね */
 
+.q3_wrapper {
+  width: 100%;
+}
+
+.q3_table {
+  table-layout: fixed;
+  width: 100%;
+  border: 1px solid #dedede;
+}
+
+.q3_table th {
+  border: 1px solid #dedede;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 26px;
+  background-color: #2244aa;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.q3_table td {
+  border: 1px solid #dedede;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.q3_table td:first-child {
+  border: 1px solid #dedede;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 26px;
+  background-color: #2244aa;
+  color: #fff;
+}
+
+.q3_table tr:nth-child(even) {
+  background-color: #ecf1f2;
+}
+
+.q3_table tbody tr:last-child {
+  border-top: 2px dashed #000;
+}
+
+
 /* 回答はここに書いてね */
