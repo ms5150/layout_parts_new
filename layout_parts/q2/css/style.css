@@ -2,4 +2,32 @@
 
 /* 回答はここに書いてね */
 
+.q2_box {
+  width: 900px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #eff3f4;
+}
+
+.q2_text {
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+}
+
+.q2_text_image_left {
+  float: left;
+  margin: 0 20px 10px 0;
+}
+
+.q2_text_image_right {
+  float:right;
+  margin: 0 0 10px 20px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 /* 回答はここに書いてね */
