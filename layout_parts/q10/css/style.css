@@ -14,21 +14,18 @@
 .q10_text::before, .q10_text::after {
   content: "";
   position: absolute;
-  right: 0;
-  left: 30px;
-  width: 0px;
-  height: 0px;
-  border-style: solid;
-  border-color: #000 transparent transparent transparent;
-  border-width: 20px 20px 0 20px;
+  border: solid 20px transparent;
 }
 
 .q10_text::before {
-  bottom: -25px;
+  left: 30px;
+  bottom: -45px;
+  border-top-color: #000;
 }
 
 .q10_text::after {
-  bottom: -18px;
-  border-top: 20px solid #fff;
+  left: 30px;
+  bottom: -38px;
+  border-top-color: #fff;
 }
 /* 回答はここに書いてね */
