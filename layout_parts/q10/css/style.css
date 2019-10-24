@@ -20,7 +20,7 @@
 .q10_text::before {
   left: 30px;
   bottom: -45px;
-  border-top-color: #000;
+  border-top-color: #222;
 }
 
 .q10_text::after {
