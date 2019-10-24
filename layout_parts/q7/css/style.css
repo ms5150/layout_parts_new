@@ -10,10 +10,11 @@
 .q7_text_float {
   display: inline-block;
   float: left;
+  margin-left: 50px;
 }
 
 .q7_text_float:first-child {
-  margin-right: 50px;
+  margin-left: 0;
 }
 
 .q7_table {
@@ -23,10 +24,11 @@
 .q7_table_sell {
   display: table-cell;
   vertical-align: middle;
+  padding-left: 50px;
 }
 
 .q7_table_sell:first-child {
-  padding-right: 50px;
+  padding-left: 0;
 }
 
 .q7_inline-block_wrapper{
